@@ -198,7 +198,7 @@ const BBPANELDEF panelDefs[] = {
     {960, 540, 20000000, BB_PANEL_FLAG_SLOW_SPH, {11,12,13,14,21,47,45,38}, 8, BB_NOT_USED, BB_NOT_USED, 39, 9, 0, 0,
       10, 0, 2, 42, 1, 0, 0, u8M5Matrix, sizeof(u8M5Matrix), 0}, // BB_PANEL_LILYGO_T5PRO
     {960, 540, 20000000, BB_PANEL_FLAG_NONE, {5,6,7,15,16,17,18,8}, 8, 11, 45, 48, 41, 8, 42, 
-      4, 14, 39, 40, BB_NOT_USED, 0, 0, u8GrayMatrix, sizeof(u8GrayMatrix), 0}, // BB_PANEL_LILYGO_T5PRO_V2
+      4, 14, 39, 40, BB_NOT_USED, 0, 38, u8M5Matrix, sizeof(u8M5Matrix), 0}, // BB_PANEL_LILYGO_T5PRO_V2
     {1440, 720, 40000000, BB_PANEL_FLAG_MIRROR_X, {27,28,29,30,31,32,33,34}, 8, BB_NOT_USED, 36, 13, 25, 0, 26,
       24, 0, 7, 8, 0, 0, 11 /* LED1_EN */, u8M5Matrix, sizeof(u8M5Matrix), 0}, // BB_PANEL_LILYGO_T5P4 
 };
