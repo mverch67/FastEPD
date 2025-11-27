@@ -22,7 +22,9 @@
 #define __BB_EP_IO__
 
 // Since the Espressif I2C driver seems to corrupt memory with it's frequent allocs and frees, use bit banging
+#if defined USE_BIT_BANG_I2C
 #define BIT_BANG
+#endif
 
 #ifdef BIT_BANG
 static uint8_t u8SDA_Pin, u8SCL_Pin;
